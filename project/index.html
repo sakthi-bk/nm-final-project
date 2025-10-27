@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogsite with Comment Section</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Blogsite 📝</h1>
+    <p>Share your thoughts and let others comment!</p>
+  </header>
+
+  <main>
+    <!-- Create New Blog -->
+    <section id="create-blog">
+      <h2>Create a New Blog</h2>
+      <input type="text" id="title" placeholder="Enter blog title" required>
+      <textarea id="content" placeholder="Write your blog content..." required></textarea>
+      <button id="addBlogBtn">Publish Blog</button>
+    </section>
+
+    <!-- Display All Blogs -->
+    <section id="blog-section">
+      <h2>All Blogs</h2>
+      <div id="blogs-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Blogsite Project | Created by Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
